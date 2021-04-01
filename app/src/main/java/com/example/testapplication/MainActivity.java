@@ -15,11 +15,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         textView=findViewById(R.id.tv);
     }
-    class Calculator{
+    static class Calculator{
         int addNumbers(int a,int b){
             return a+b;
         }
     }
-
-
 }

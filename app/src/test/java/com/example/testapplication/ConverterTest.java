@@ -7,6 +7,12 @@ import static org.junit.Assert.*;
 
 public class ConverterTest {
 
+
+    @Before
+    public void setUp() throws Exception {
+
+    }
+
     @Test
     public void addNumbers() {
         Converter converter=new Converter();
